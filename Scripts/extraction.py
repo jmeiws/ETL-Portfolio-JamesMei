@@ -1,7 +1,6 @@
 import requests
 import pandas as pd
-import boto3
-from io import StringIO
+
 
 url = "https://data.cityofnewyork.us/resource/w2pb-icbu.json"
 
