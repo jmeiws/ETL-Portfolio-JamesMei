@@ -66,9 +66,9 @@ The raw dataset contains approximately 600,000 records.
 ![ELT diagram](https://github.com/jmeiws/Homework-1/assets/145298707/3d18c684-79a6-43fb-912b-6289c7f5ae62)
 
 #### 1. Extract
- Python is used to connect to the API and retrieve the data, which is then organized and stored in a Pandas DataFrame. Minimal cleaning was performed. Refer to [HW1.py](Scripts/HW1.py) for more details on the extraction process and the type of data cleaning performed. 
+ Python is used to connect to the API and retrieve the data, which is then organized and stored in a Pandas DataFrame. Minimal cleaning was performed. Refer to [extraction.py](Scripts/extraction.py) for more details on the extraction process and the type of data cleaning performed. 
 #### 2. Load 
-After setting up an AWS account, the extracted data is loaded into an Amazon S3 bucket, as a good practice to avoid frequent API calls to the source system. I chose S3 as my cloud storage because of its integration with Amazon Redshift Serverless. This serves as a staging area for the data before being loaded into the target data warehouse. Refer to [insert s3 python code] for the configuration of my S3 bucket. Keys taken out for privacy concerns. 
+After setting up an AWS account, the extracted data is loaded into an Amazon S3 bucket, as a good practice to avoid frequent API calls to the source system. I chose S3 as my cloud storage because of its integration with Amazon Redshift Serverless. This serves as a staging area for the data before being loaded into the target data warehouse. Refer to [load_s3.py](Scripts/load_s3.py) for the configuration of my S3 bucket. Keys taken out for privacy concerns. 
 
 At this point, an Amazon Redshift cluster has been created. Refer to [AWS documentation](https://docs.aws.amazon.com/redshift/latest/gsg/new-user-serverless.html) for configuration steps. 
 
