@@ -95,6 +95,8 @@ After executing the dbt models:
 - Fact Tables:
    1. fact_sales
 ## Serving Data using Tableau
+With the dimension and fact tables created in the Data Warehouse, I connected Tableau Desktop to my Amazon Redshift database, and created data visualizations for my dashboard.
+
 ### Dashboard
 ![image](https://github.com/jmeiws/Homework-1/assets/145298707/c0177dc0-7b0a-4356-a9b3-9de385afcdec)
 
