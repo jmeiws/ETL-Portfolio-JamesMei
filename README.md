@@ -34,7 +34,7 @@ Missing Requirements:
 
 The API endpoint used for data extraction is https://data.cityofnewyork.us/resource/w2pb-icbu.json.
 
-To access Python script used to source the data, click [here.](Scripts/HW1.py)
+To access Python script used to source the data, click [here.](Scripts/extraction.py)
 
 
 ## Data Dictionary
