@@ -1,4 +1,4 @@
-# Homework-1
+# Mei Real Estate Analytics
 
 ## Business Problem 
 Mei Real Estate Analytics is a data-driven firm seeking to empower real estate professionals. Operating in the dynamic real estate landscape of New York City, our mission is to provide our clients, including investors, developers, and financial institutions, with the tools and information needed to make strategic decisions and thrive in the competitive market. 
